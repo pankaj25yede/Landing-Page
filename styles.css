@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Set background color for the entire page */
+    color: #fff; /* Set text color to white */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content horizontally */
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    justify-content: space-between; /* Align content vertically */
+}
+
+header, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+header {
+    background-color: #2980b9; /* Darker blue for the header */
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+    text-align: center; /* Center align text */
+}
+
+h1, h2, h3 {
+    color: #041d23; /* Set text color to a lighter shade of white */
+}
+
+h1 {
+    font-size: 2.5em; /* Increase font size for the main heading */
+    font-weight: bold; /* Make the main heading bold */
+}
+
+section {
+    margin-top: 20px;
+    text-align: center; /* Center align text */
+}
+
+.course {
+    display: grid;
+    grid-template-columns: 1fr; /* Make it a single column grid */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.course-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns: one for image, one for description */
+    align-items: center;
+}
+
+.course img {
+    max-width: 100%;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: #2980b9; /* Darker blue for the buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2471a3; /* Darker shade on hover */
+}
+
+footer {
+    background-color: #2980b9; /* Darker blue for the footer */
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+}
